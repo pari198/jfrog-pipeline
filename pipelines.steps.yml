@@ -2,7 +2,7 @@ resources:
   - name: myAppRepo
     type: GitRepo
     configuration:
-      gitProvider: myGitHub               # Change to your integration
+      gitProvider: Git_hub         # Change to your integration
       path: pari198/jfrog-pipeline             # Change to your repo
       branches:
         include: master
